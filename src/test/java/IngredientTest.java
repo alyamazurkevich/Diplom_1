@@ -39,7 +39,6 @@ public class IngredientTest {
         Assert.assertEquals(ingredientType, actualType);
 
     }
-
     @Test
     public void getIngredientName() {
         Ingredient testIngredient = new Ingredient(ingredientType, name, price);
