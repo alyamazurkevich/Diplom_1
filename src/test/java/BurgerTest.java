@@ -29,7 +29,6 @@ public class BurgerTest {
         Assert.assertEquals(bun, testBurger.bun);
 
     }
-
     @Test
     public void addIngredientTest() {
         Burger testBurger = new Burger();
