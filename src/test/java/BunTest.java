@@ -13,7 +13,6 @@ public class BunTest {
         this.name = name;
         this.price = price;
     }
-
     @Parameterized.Parameters
     public static Object[][] bun() {
         return new Object[][]{
