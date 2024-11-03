@@ -30,6 +30,7 @@ public class IngredientTest {
                 {IngredientType.FILLING, "sausage", 300},
         };
     }
+
     @Test
     public void getIngredientType() {
         Ingredient testIngredient = new Ingredient(ingredientType, name, price);
