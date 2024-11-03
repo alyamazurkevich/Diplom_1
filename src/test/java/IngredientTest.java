@@ -18,7 +18,6 @@ public class IngredientTest {
         this.name = name;
         this.price = price;
     }
-
     @Parameterized.Parameters
     public static Object[][] ingredient() {
         return new Object[][]{

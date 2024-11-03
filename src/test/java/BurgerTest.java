@@ -9,7 +9,6 @@ import praktikum.Burger;
 import praktikum.Ingredient;
 import praktikum.IngredientType;
 
-
 @RunWith(MockitoJUnitRunner.class)
 public class BurgerTest {
     @Mock
